@@ -1,0 +1,7 @@
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\PROJECT\QuanLySinhVien\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\PROJECT\QuanLySinhVien\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\PROJECT\QuanLySinhVien\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\PROJECT\QuanLySinhVien\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\PROJECT\QuanLySinhVien\BusinessLayer\obj\Debug\BusinessLayer.pdb
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\PROJECT\QuanLySinhVien\BusinessLayer\bin\Debug\DAL.dll
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\PROJECT\QuanLySinhVien\BusinessLayer\bin\Debug\DAL.pdb

@@ -1,0 +1,9 @@
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\PROJECT\QuanLySinhVien\QuanLySinhVien\bin\Debug\QuanLySinhVien.exe.config
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\PROJECT\QuanLySinhVien\QuanLySinhVien\bin\Debug\QuanLySinhVien.exe
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\PROJECT\QuanLySinhVien\QuanLySinhVien\bin\Debug\QuanLySinhVien.pdb
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\PROJECT\QuanLySinhVien\QuanLySinhVien\obj\Debug\UI.csprojResolveAssemblyReference.cache
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\PROJECT\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.FormMain.resources
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\PROJECT\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.Properties.Resources.resources
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\PROJECT\QuanLySinhVien\QuanLySinhVien\obj\Debug\UI.csproj.GenerateResource.Cache
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\PROJECT\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.exe
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\PROJECT\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.pdb
