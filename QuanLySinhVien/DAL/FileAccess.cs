@@ -9,18 +9,35 @@ namespace DAL
 {
     public class FileAccess
     {
-        public string URL { get; set; }
-
-        public List<string[]> ReadAllFile()
+        
+        /*
+       public void WriteFile(SinhVien sv)
         {
-            List<string[]> result = new List<string[]>();
-            string[] Lines = File.ReadAllLines(URL);
-            foreach (string s in Lines)
+            try
             {
-                string[] props = s.Split('|');
-                result.Add(props);
+                bw = new BinaryWriter(new FileStream("data.br", FileMode.Append));
             }
-            return result;
-        }
+            catch (IOException e)
+            {
+                Console.WriteLine(e.Message);
+                return;
+            }
+
+            try
+            {
+                bw.Write(st.ID);
+                bw.Write(st.ClassID);
+                bw.Write(st.Name);
+                bw.Write(Convert.ToString(st.Date));
+                bw.Write(st.Average);
+            }
+            catch (IOException e)
+            {
+                Console.WriteLine(e.Message);
+                return;
+            }
+            bw.Close();
+
+        }*/
     }
 }

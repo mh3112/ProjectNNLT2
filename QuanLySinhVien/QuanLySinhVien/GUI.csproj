@@ -82,13 +82,13 @@
     <Folder Include="UC\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
+    <ProjectReference Include="..\BusinessLayer\BL.csproj">
       <Project>{5d85b8f4-9344-42db-b97c-63e97fca5e19}</Project>
-      <Name>BusinessLayer</Name>
+      <Name>BL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DAL\DataAccessLayer.csproj">
+    <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{4356fe1f-d4c3-46e8-b355-0d0f26dda0fd}</Project>
-      <Name>DataAccessLayer</Name>
+      <Name>DAL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

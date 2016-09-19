@@ -44,9 +44,9 @@
     <Compile Include="Entities\SinhVien.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DAL\DataAccessLayer.csproj">
+    <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{4356fe1f-d4c3-46e8-b355-0d0f26dda0fd}</Project>
-      <Name>DataAccessLayer</Name>
+      <Name>DAL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -11,3 +11,16 @@ E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\PROJECT\QuanLySinhVien\QuanLySinhVie
 E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\PROJECT\QuanLySinhVien\QuanLySinhVien\bin\Debug\DAL.pdb
 E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\PROJECT\QuanLySinhVien\QuanLySinhVien\bin\Debug\BusinessLayer.dll
 E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\PROJECT\QuanLySinhVien\QuanLySinhVien\bin\Debug\BusinessLayer.pdb
+E:\QuanLySinhVien\QuanLySinhVien\bin\Debug\QuanLySinhVien.exe.config
+E:\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.exe
+E:\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.pdb
+E:\QuanLySinhVien\QuanLySinhVien\bin\Debug\QuanLySinhVien.exe
+E:\QuanLySinhVien\QuanLySinhVien\bin\Debug\QuanLySinhVien.pdb
+E:\QuanLySinhVien\QuanLySinhVien\bin\Debug\BusinessLayer.dll
+E:\QuanLySinhVien\QuanLySinhVien\bin\Debug\DAL.dll
+E:\QuanLySinhVien\QuanLySinhVien\bin\Debug\BusinessLayer.pdb
+E:\QuanLySinhVien\QuanLySinhVien\bin\Debug\DAL.pdb
+E:\QuanLySinhVien\QuanLySinhVien\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+E:\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.FormMain.resources
+E:\QuanLySinhVien\QuanLySinhVien\obj\Debug\QuanLySinhVien.Properties.Resources.resources
+E:\QuanLySinhVien\QuanLySinhVien\obj\Debug\GUI.csproj.GenerateResource.Cache
