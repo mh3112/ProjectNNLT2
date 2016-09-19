@@ -121,7 +121,6 @@
             this.lstView.Size = new System.Drawing.Size(205, 607);
             this.lstView.TabIndex = 0;
             this.lstView.UseCompatibleStateImageBehavior = false;
-            this.lstView.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             this.lstView.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lstView_MouseClick);
             // 
             // imgList_Large
@@ -170,7 +169,7 @@
             this.dataGridView.Size = new System.Drawing.Size(779, 355);
             this.dataGridView.TabIndex = 0;
             this.dataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellClick);
-            this.dataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellContentClick);
+            this.dataGridView.SelectionChanged += new System.EventHandler(this.dataGridView_SelectionChanged);
             // 
             // maSV
             // 
@@ -283,6 +282,7 @@
             this.chk_Khong.TabIndex = 9;
             this.chk_Khong.Text = "Không";
             this.chk_Khong.UseVisualStyleBackColor = true;
+            this.chk_Khong.CheckedChanged += new System.EventHandler(this.chk_Khong_CheckedChanged);
             // 
             // chk_Co
             // 
@@ -293,6 +293,7 @@
             this.chk_Co.TabIndex = 8;
             this.chk_Co.Text = "Có";
             this.chk_Co.UseVisualStyleBackColor = true;
+            this.chk_Co.CheckedChanged += new System.EventHandler(this.chk_Co_CheckedChanged);
             // 
             // label6
             // 

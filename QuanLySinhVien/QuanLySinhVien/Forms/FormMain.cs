@@ -31,11 +31,11 @@ namespace QuanLySinhVien
         /// Doc file va dua len Gridview
         /// </summary>
         /// <param name="path"></param>
-        public void GetAllStudent(string path)
+        public void GetAllStudent()
         {
             StreamReader reader = null;
             reader = File.OpenText("danhsach.txt");
-            List<SinhVien> list = new List<SinhVien>();
+            //  List<SinhVien> list = new List<SinhVien>();
             string str;
             while ((str = reader.ReadLine()) != null)
             {
@@ -50,24 +50,10 @@ namespace QuanLySinhVien
             }
 
         }
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+
+
+        public void LoadImage()
         {
-            //ListView lstView = sender as ListView;
-            //ListViewItem item = lstView.SelectedItems[0];
-            //string id = item.SubItems[0].Name;
-            // Query theo maSV lay duoc
-            
-            //MessageBox.Show(id);
-
-
-        }
-       
-        
-
-        private void FormMain_Load(object sender, EventArgs e)
-        {
-            tSB_Luu.Enabled = false;
-            tSB_Thoat.Enabled = false;
             //Load image len listview 
             int i = 0;
             string[] dirs = Directory.GetFiles(AppDomain.CurrentDomain.BaseDirectory + @"Images");
@@ -85,19 +71,20 @@ namespace QuanLySinhVien
                 if (i == imgList_Large.Images.Count)
                     i = 0;
             }
-
+        }
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            tSB_Luu.Enabled = false;
+            tSB_Thoat.Enabled = false;
+            LoadImage();
             //Dua du lieu len grid
             dataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-
-            GetAllStudent("");
+            //
+            GetAllStudent();
         }
 
-        private void dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
-        }
-        
         private void dataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             //lấy id của dòng đang chọn
@@ -172,18 +159,17 @@ namespace QuanLySinhVien
             }
             write.Close();
         }
-    /*    public void InsertAStudent(SinhVien newSV)
-        {
-            //Ham ghi file
-            StreamWriter write = new StreamWriter("danhsach.txt", false);
-            string s = newSV.MaSV + "|" + newSV.HoTen + "|" + newSV.Lop + "|" + newSV.NgaySinh + "|" + newSV.GioiTinh + "|" + newSV.QueQuan + "|" + newSV.DiemTB + "|" + newSV.NguoiYeu;
-            write.WriteLine(s);
-            write.Close();
-        }*/
+        /*    public void InsertAStudent(SinhVien newSV)
+            {
+                //Ham ghi file
+                StreamWriter write = new StreamWriter("danhsach.txt", false);
+                string s = newSV.MaSV + "|" + newSV.HoTen + "|" + newSV.Lop + "|" + newSV.NgaySinh + "|" + newSV.GioiTinh + "|" + newSV.QueQuan + "|" + newSV.DiemTB + "|" + newSV.NguoiYeu;
+                write.WriteLine(s);
+                write.Close();
+            }*/
 
         public void DeleteAStudent()
         {
-
             // int index = dsSV.FindIndex(x => x.MaSV == txtMaSV.Text);
             // if (index != -1)
             dsSV.RemoveAt(dsSV.FindIndex(x => x.MaSV == txtMaSV.Text));
@@ -197,6 +183,7 @@ namespace QuanLySinhVien
             tSB_Capnhat.Enabled = false;
             tSB_Sua.Enabled = false;
             tSB_Them.Enabled = false;
+            tSB_Xoa.Enabled = false;
             tSB_Luu.Enabled = true;
             tSB_Thoat.Enabled = true;
 
@@ -222,7 +209,7 @@ namespace QuanLySinhVien
                 bool check = true;
                 foreach (SinhVien sv in dsSV)
                 {
-                    if (id == sv.MaSV || id==null)
+                    if (id == sv.MaSV || id == null)
                         check = false;
                 }
                 if (check == false)
@@ -254,7 +241,7 @@ namespace QuanLySinhVien
                     write.Close();
                     dataGridView.Rows.Clear();
                     dsSV.Clear();
-                    GetAllStudent("");
+                    GetAllStudent();
                 }
 
             }
@@ -284,7 +271,7 @@ namespace QuanLySinhVien
                 write.Close();
                 dataGridView.Rows.Clear();
                 dsSV.Clear();
-                GetAllStudent("");
+                GetAllStudent();
                 txtMaSV.Enabled = true;
             }
             tSB_Them.Enabled = true;
@@ -314,7 +301,7 @@ namespace QuanLySinhVien
             Reset();
             dataGridView.Rows.Clear();
             dsSV.Clear();
-            GetAllStudent("");
+            GetAllStudent();
         }
 
         private void tSB_Xoa_Click(object sender, EventArgs e)
@@ -331,29 +318,84 @@ namespace QuanLySinhVien
                     Reset();
                     dataGridView.Rows.Clear();
                     dsSV.Clear();
-                    GetAllStudent("");
+                    GetAllStudent();
                     MessageBox.Show("Đã xóa sinh viên!", "Thông Báo");
                 }
             }
 
         }
- 
-       private void lstView_MouseClick(object sender, MouseEventArgs e)
+
+        private void lstView_MouseClick(object sender, MouseEventArgs e)
         {
-           // ListView lstView = sender as ListView;
-            ListViewItem item=new ListViewItem();
-       //     item.Selected.ToString();
-       //     string id = item.SubItems[0].Name;
-            // Query theo maSV lay duoc
+            ListViewItem theClickedOne = lstView.GetItemAt(e.X, e.Y);
+            if (theClickedOne != null)
+            {
+                string name = theClickedOne.Text;
+                dataGridView.ClearSelection();
+                for (int i = 0; i < dsSV.Count; i++)
+                {
+                    if (name.Substring(0, name.Length - 4) == dsSV[i].MaSV)
+                    {
+                        dataGridView.Rows[i].Selected = true ;
+                        dataGridView.CurrentCell = dataGridView.Rows[i].Cells[0];
+                    }
+                }
+            }
+        }
 
-          //  MessageBox.Show();
-            //MessageBox.Show("s");
-            // Hittestinfo of the clicked ListView location
-            ListViewHitTestInfo listViewHitTestInfo = lstView.HitTest(e.X, e.Y);
+        private void dataGridView_SelectionChanged(object sender, EventArgs e)
+        {
+            try
+            {
 
-            // Index of the clicked ListView column
-            int columnIndex = listViewHitTestInfo.Item.SubItems.IndexOf(listViewHitTestInfo.SubItem);
-            MessageBox.Show(columnIndex.ToString());
+                if (dataGridView.CurrentRow.Cells["maSV"].Value != null)
+                {
+                    txtMaSV.Text = dataGridView.CurrentRow.Cells["maSV"].Value.ToString();
+                    txtTen.Text = dataGridView.CurrentRow.Cells["hoTen"].Value.ToString();
+                    txtQue.Text = dataGridView.CurrentRow.Cells["queQuan"].Value.ToString();
+                    txtLop.Text = dataGridView.CurrentRow.Cells["lop"].Value.ToString();
+                    txtDiem.Text = dataGridView.CurrentRow.Cells["diemTB"].Value.ToString();
+                    dateTime.Value = DateTime.Parse(dataGridView.CurrentRow.Cells["ngaySinh"].Value.ToString());
+                    //Gioi tinh
+                    string GT = dataGridView.CurrentRow.Cells["gioiTinh"].Value.ToString();
+                    if (GT == "Nam")
+                        rdbNam.Checked = true;
+                    if (GT == "Nu")
+                        rdbNu.Checked = true;
+                    //Nguoi yeu
+                    string ny = dataGridView.CurrentRow.Cells["nguoiYeu"].Value.ToString();
+                    if (ny == "Co")
+                    {
+                        chk_Co.Checked = true;
+                        chk_Khong.Checked = false;
+                    }
+                    if (ny == "Khong")
+                    {
+                        chk_Co.Checked = false;
+                        chk_Khong.Checked = true;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void chk_Khong_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chk_Khong.Checked == true)
+                chk_Co.Checked = false;
+            else
+                chk_Co.Checked = true;
+        }
+
+        private void chk_Co_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chk_Co.Checked == true)
+                chk_Khong.Checked = false;
+            else
+                chk_Khong.Checked = true;
         }
     }
 }
