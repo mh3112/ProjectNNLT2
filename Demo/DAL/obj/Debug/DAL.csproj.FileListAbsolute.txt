@@ -1,0 +1,16 @@
+D:\LT WINDOW FORM 2016\K13\Demo\DAL\bin\Debug\DAL.exe.config
+D:\LT WINDOW FORM 2016\K13\Demo\DAL\bin\Debug\DAL.exe
+D:\LT WINDOW FORM 2016\K13\Demo\DAL\bin\Debug\DAL.pdb
+D:\LT WINDOW FORM 2016\K13\Demo\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\LT WINDOW FORM 2016\K13\Demo\DAL\obj\Debug\DAL.Properties.Resources.resources
+D:\LT WINDOW FORM 2016\K13\Demo\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
+D:\LT WINDOW FORM 2016\K13\Demo\DAL\obj\Debug\DAL.exe
+D:\LT WINDOW FORM 2016\K13\Demo\DAL\obj\Debug\DAL.pdb
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\DAL\bin\Debug\DAL.exe.config
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\DAL\bin\Debug\DAL.exe
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\DAL\bin\Debug\DAL.pdb
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\DAL\obj\Debug\DAL.Properties.Resources.resources
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\DAL\obj\Debug\DAL.exe
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\DAL\obj\Debug\DAL.pdb

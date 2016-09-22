@@ -1,0 +1,42 @@
+D:\LT WINDOW FORM 2016\K13\Demo\Demo\bin\Debug\Demo.exe.config
+D:\LT WINDOW FORM 2016\K13\Demo\Demo\bin\Debug\Demo.exe
+D:\LT WINDOW FORM 2016\K13\Demo\Demo\bin\Debug\Demo.pdb
+D:\LT WINDOW FORM 2016\K13\Demo\Demo\obj\Debug\UI.csprojResolveAssemblyReference.cache
+D:\LT WINDOW FORM 2016\K13\Demo\Demo\obj\Debug\Demo.FormMain.resources
+D:\LT WINDOW FORM 2016\K13\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+D:\LT WINDOW FORM 2016\K13\Demo\Demo\obj\Debug\UI.csproj.GenerateResource.Cache
+D:\LT WINDOW FORM 2016\K13\Demo\Demo\obj\Debug\Demo.exe
+D:\LT WINDOW FORM 2016\K13\Demo\Demo\obj\Debug\Demo.pdb
+D:\LT WINDOW FORM 2016\K13\Demo\Demo\obj\Debug\Demo.UC.ucNhanVien.resources
+D:\LT WINDOW FORM 2016\K13\Demo\Demo\obj\Debug\Demo.UC.ucMain.resources
+D:\LT WINDOW FORM 2016\K13\Demo\Demo\obj\Debug\Demo.Forms.Form1.resources
+D:\LT WINDOW FORM 2016\K13\Demo\Demo\obj\Debug\Demo.Forms.MinhHang.resources
+D:\LT WINDOW FORM 2016\K13\Demo\Demo\obj\Debug\Demo.Forms.Controls2.resources
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\Demo\bin\Debug\Demo.exe.config
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\Demo\obj\Debug\Demo.exe
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\Demo\obj\Debug\Demo.pdb
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\Demo\bin\Debug\Demo.exe
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\Demo\bin\Debug\Demo.pdb
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\Demo\obj\Debug\UI.csprojResolveAssemblyReference.cache
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\Demo\obj\Debug\Demo.FormMain.resources
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\Demo\obj\Debug\Demo.Forms.Controls2.resources
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\Demo\obj\Debug\Demo.Forms.Form1.resources
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\Demo\obj\Debug\Demo.Forms.MinhHang.resources
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\Demo\obj\Debug\Demo.UC.ucMain.resources
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\Demo\obj\Debug\Demo.UC.ucNhanVien.resources
+D:\LT WINDOW FORM 2016\K13\Buoi 3 Lam viec voi dieu khien nang cao\Demo\Demo\obj\Debug\UI.csproj.GenerateResource.Cache
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\Buoi 4 Lam viec voi CSDL Text\Demo\Demo\bin\Debug\Demo.exe.config
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\Buoi 4 Lam viec voi CSDL Text\Demo\Demo\obj\Debug\Demo.exe
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\Buoi 4 Lam viec voi CSDL Text\Demo\Demo\obj\Debug\Demo.pdb
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\Buoi 4 Lam viec voi CSDL Text\Demo\Demo\bin\Debug\Demo.exe
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\Buoi 4 Lam viec voi CSDL Text\Demo\Demo\bin\Debug\Demo.pdb
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\Buoi 4 Lam viec voi CSDL Text\Demo\Demo\obj\Debug\UI.csprojResolveAssemblyReference.cache
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\Buoi 4 Lam viec voi CSDL Text\Demo\Demo\obj\Debug\Demo.FormMain.resources
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\Buoi 4 Lam viec voi CSDL Text\Demo\Demo\obj\Debug\Demo.Forms.Controls2.resources
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\Buoi 4 Lam viec voi CSDL Text\Demo\Demo\obj\Debug\Demo.Forms.Form1.resources
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\Buoi 4 Lam viec voi CSDL Text\Demo\Demo\obj\Debug\Demo.Forms.MinhHang.resources
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\Buoi 4 Lam viec voi CSDL Text\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\Buoi 4 Lam viec voi CSDL Text\Demo\Demo\obj\Debug\Demo.UC.ucMain.resources
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\Buoi 4 Lam viec voi CSDL Text\Demo\Demo\obj\Debug\Demo.UC.ucNhanVien.resources
+E:\INFORMATION TECHNOLOGY\KI 1 nam 3\NNLT 2\Buoi 4 Lam viec voi CSDL Text\Demo\Demo\obj\Debug\UI.csproj.GenerateResource.Cache

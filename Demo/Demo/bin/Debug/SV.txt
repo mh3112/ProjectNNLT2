@@ -1,0 +1,5 @@
+﻿1	Trần Văn Nhất	123	True	BN	1	True
+2	Nguyễn Thị Hai	123	False	BN	2	True
+3	Trần Thị 3	123	False	BN	4	True
+4	Nguyễn Văn 4	123	True	BN	9	True
+5	Nguyễn Văn 5	123	True	BN	7	True

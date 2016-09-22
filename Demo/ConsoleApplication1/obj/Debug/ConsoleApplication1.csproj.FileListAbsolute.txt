@@ -1,0 +1,6 @@
+D:\LT WINDOW FORM 2016\K13\Demo\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\LT WINDOW FORM 2016\K13\Demo\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\LT WINDOW FORM 2016\K13\Demo\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\LT WINDOW FORM 2016\K13\Demo\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\LT WINDOW FORM 2016\K13\Demo\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\LT WINDOW FORM 2016\K13\Demo\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
